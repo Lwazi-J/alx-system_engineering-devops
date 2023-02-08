@@ -6,3 +6,5 @@
 'ls -al' Script to display current directory contents: Long format, with user and group IDs displayed numerically, And hidden files (starting with .).
 'mkdir /tmp/my_first_directory' Script to create a directory named my_first_directory in the /tmp/ directory
 'mv /tmp/betty /tmp/my_first_directory/betty' Script to Move the file betty from /tmp/ to /tmp/my_first_directory
+'rm /tmp/my_first_directory/betty' Script to Delete the file betty
+'rm -r /tmp/my_first_directory/' Script to Delete the directory my_first_directory that is in the /tmp directory.
