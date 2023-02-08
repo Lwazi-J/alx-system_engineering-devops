@@ -8,4 +8,5 @@
 'mv /tmp/betty /tmp/my_first_directory/betty' Script to Move the file betty from /tmp/ to /tmp/my_first_directory
 'rm /tmp/my_first_directory/betty' Script to Delete the file betty
 'rm -r /tmp/my_first_directory/' Script to Delete the directory my_first_directory that is in the /tmp directory.
-'cd ..' Script to change the working directory to the previous one
+'cd -' Script to changg the working directory to the previous one
+
