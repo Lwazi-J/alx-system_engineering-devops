@@ -11,3 +11,5 @@
 'cd -' Script to changg the working directory to the previous one
 'ls -la . .. /boot' Script to list all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 'file /tmp/iamafile' Script to print the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+'ln -s /bin/ls __ls__' Script to Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+
