@@ -11,4 +11,5 @@
 -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
 'chmod --reference=olleh hello' script to sets the mode of the file hello the same as olleh’s mode.
 'chmod -R ugo+X .' script to adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+'mkdir -m 751 my_dir' script to creates a directory called my_dir with permissions 751 in the working directory
 
