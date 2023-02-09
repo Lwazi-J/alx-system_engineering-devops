@@ -9,4 +9,5 @@
 'chmod 007 hello' script to adds execution permission to the owner, the group owner and the other users, to the file hello
 'chmod 753 hello' script to set the mode of the file hello to this:
 -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+'chmod --reference-olleh hello' script to sets the mode of the file hello the same as olleh’s mode.
 
