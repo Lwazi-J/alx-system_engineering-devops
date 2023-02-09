@@ -3,5 +3,5 @@
 'groups' script to prints all the groups the current user is part of
 'chown betty hello' script to changes the owner of the file hello to the user betty
 'touch hello' script to creates an empty file called hello
-'chmod 100 hello' script to adds execute permission to the owner of the file hello
+'chmod u+x hello' script to adds execute permission to the owner of the file hello
 
