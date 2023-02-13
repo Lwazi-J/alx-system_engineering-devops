@@ -20,4 +20,5 @@
 'tr "A" "Z" | tr "c" "e"'  script to Replace all characters A and c from input to Z and e respectively.
 'tr -d "cC"'  script that removes all letters c and C from input.
 'rev'  script to reverse
+'cut -d ':' -f 1,6 /etc/passwd | sort'  script that displays all users and their home directories, sorted by users
 
