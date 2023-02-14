@@ -5,3 +5,5 @@ echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))  script that counts the number 
 printenv  script that lists environment variables.
 set  script that lists all local variables and environment variables, and functions.
 BEST="School"  script that creates a new local variable.
+export BEST="School"  script that creates a new global variable.
+
