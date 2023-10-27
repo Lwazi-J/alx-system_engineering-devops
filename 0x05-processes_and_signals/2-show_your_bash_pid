@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2009
+# Use ps command to display a list of all processes, filter lines containing "bash"
+
+ps aux --forest | grep "bash"
